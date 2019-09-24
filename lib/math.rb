@@ -3,28 +3,30 @@ num2 = 25
 
 def addition(num1, num2)
   a =  num1 + num2
-  puts a
+  p a
 end
 
 def subtraction(num1, num2)
   s = num1 - num2
-  put s
+  p s
 end
 
 def division(num1, num2)
   d = num1 / num2
-  put d
+  p d
 end
 
 def multiplication(num1, num2)
   m = num1 * num2
-  put m
+  p m
 end
 
 def modulo(num1, num2)
   mod = num1 % num2
+  p mod
 end
 
 def square_root(num)
 sq = num.sqrt()
+p sq
 end
