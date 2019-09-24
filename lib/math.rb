@@ -1,5 +1,5 @@
-num1 = 50
-num2 = 25
+num1 =5
+num2 = 4
 
 def addition(num1, num2)
   a =  num1 + num2
