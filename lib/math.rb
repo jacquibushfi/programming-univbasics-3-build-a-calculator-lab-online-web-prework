@@ -27,5 +27,7 @@ def modulo(num1, num2)
 end
 
 def square_root(num = 16)
-  p num.sqrt
+ require 'cmath' 
+ x = CMath.sqrt(num) 
+ puts x 
 end
