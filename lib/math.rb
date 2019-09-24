@@ -1,3 +1,6 @@
+num1 = 50
+num2 = 25
+
 def addition(num1, num2)
   a =  num1 + num2
   puts a
