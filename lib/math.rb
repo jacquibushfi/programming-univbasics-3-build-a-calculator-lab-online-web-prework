@@ -12,7 +12,7 @@ def subtraction(num1, num2)
 end
 
 def division(num1, num2)
-  d = num1 / num2
+  $d = num1 / num2
   p d
 end
 
@@ -25,7 +25,7 @@ def modulo(num1, num2)
   mod = num1 % num2
   p mod
 end
-
+num = $d
 def square_root(num)
   sq = num.sqrt()
   p sq
